@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form</title>
+    <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Login Form</title>
+</head>
+
+<body>
+    
+    <h2>Login Page</h2><br>
+    <div class="login">
+        <header> 
+        <img src="images/Capture.PNG" alt="lime" />
+    </header>
+        <form id="login" method="get">
+            <label><b>User Name  
+        </label>
+            <input class="email" name="email" id="" placeholder="email" title="doit se terminer par kalanso.com" pattern=".+@kalanso\.com" required="required">
+            <i class="fas fa-envelope"></i>
+            <br><br>
+            <label><b>Password     
+        </b>    
+        </label>
+            <input type="Password" name="Pass" id="" placeholder="Password" minlength="6" maxlength="8" pattern="(?=.*\d)(?=.*[a-z)(?=.*[A-Z]).{6,}" required="required">
+            <i class="bi bi-eye-slash" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+            <br><br>
+            <input type="button" name="log" id="log" value="Log In Here">
+            <br><br>
+            <input type="checkbox" id="check">
+            <span>Remember me</span>
+            <div class="submit">
+                <button class="soumettre " type="submit "> soumettre </button>
+                <button id="reset " type="reset"> reinitialiser </button>
+            </div>
+             
+        </div>
+        </form>
+</body>
+</html>
